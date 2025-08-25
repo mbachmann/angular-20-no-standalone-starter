@@ -1,6 +1,31 @@
-# TodoAngular20TestNoStandalone
+# Angular 20 Starter No Standalone (contains @NgModule)
+
+https://github.com/mbachmann/angular-20-no-standalone-starter
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
+
+The starter project contains the following libraries and settings:
+
+- refactor to the existing naming with `suffixes`
+- schematics contains the changes for the existing naming with suffixes
+- schematics contains `eslint/schematics`
+- prettier library with `.prettierrc.json` and `.prettierignore`
+- eslint library with `prettier-eslint`, `eslint-config-prettier` and `eslint-plugin-prettier`
+- `package.json` contains scripts for prettier and eslint
+- Karma Configuration
+
+
+## Linting and Prettier
+
+```bash
+npm run prettier:check
+npm run prettier:write
+
+
+npm run lint:check
+npm run lint:fix
+```
+
 
 ## Development server
 
@@ -43,6 +68,9 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
 ```bash
 ng test
 ```
+
+Unit Tests can be executed (run or debug) with Karma. Create in your IDE a run configuration. 
+
 
 ## Running end-to-end tests
 
