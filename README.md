@@ -13,6 +13,7 @@ The starter project contains the following libraries and settings:
 - eslint library with `prettier-eslint`, `eslint-config-prettier` and `eslint-plugin-prettier`
 - `package.json` contains scripts for prettier and eslint
 - Karma Configuration
+- Fortawsome and Bootstrap Library
 
 
 ## Linting and Prettier
